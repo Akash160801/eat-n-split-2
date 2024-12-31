@@ -1,0 +1,121 @@
+/* body {
+  height: 100vh;
+  color: #495057;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .app {
+  min-height: 66vh;
+  display: grid;
+  grid-template-columns: 34rem 44rem;
+  column-gap: 4rem;
+  align-items: start;
+} */
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  width: 16rem;
+  padding: 8px 4px 0px 4px;
+}
+
+.bill {
+  background-color: bisque;
+
+  padding: 10px 28px 15px 8px;
+  border-radius: 15px;
+}
+
+.billSplitter {
+  background-color: bisque;
+  width: 30%;
+  padding: 10px 8px 10px 8px;
+  border-radius: 15px;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+.btn button {
+  margin: 20px 0px;
+
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+.split button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.form {
+  display: flex;
+
+  justify-content: center;
+  background-color: bisque;
+  width: 30%;
+  margin: 10px 0px;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+/* form {
+  display: grid;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: bisque;
+  border-radius: 15px;
+  width: 30%;
+  margin: 10px 0px;
+  padding: 20px 10px;
+}
+
+.form-add-friend {
+  grid-template-columns: 1fr 1.5fr;
+  margin-bottom: 1.6rem;
+  padding: 1.2rem;
+} */
+
+.form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.select {
+  flex: 0.8;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.totalBill {
+  flex: 0.8;
+  padding: 8px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
